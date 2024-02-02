@@ -86,7 +86,7 @@ def fol_to_cnf(fol):
     for s in statements:
         statement = statement.replace(s, DeMorgan(s))
     return statement
-print("J Hanuma Kaushik-1BM21CS078")
+print("Jagadeesh A Latti-1BM21CS079")
 print(Skolemization(fol_to_cnf("animal(y)<=>loves(x,y)")))
 print(Skolemization(fol_to_cnf("∀x[∀y[animal(y)=>loves(x,y)]]=>[∃z[loves(z,x)]]")))
 print(fol_to_cnf("[american(x)&weapon(y)&sells(x,y,z)&hostile(z)]=>criminal(x)"))
